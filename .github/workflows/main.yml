@@ -27,7 +27,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Initialization environment
-      env
+      env:
         SSH_ACTIONS: true
         DEBIAN_FRONTEND: noninteractive
       run: |
